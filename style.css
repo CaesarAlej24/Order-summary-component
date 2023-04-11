@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    min-width: 510px;
+    height: auto;
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.background-img {
+    background-color: hsl(225, 100%, 94%);
+    max-width: 100%;
+    min-width: 475px;
+    height: auto;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+main {
+    max-width: 1440px;
+    min-width: 475px;
+    height: 900px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    border-radius: 22px;
+    background: white;
+    max-width: 475px;
+    min-width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: normal;
+}
+
+.img-hero {
+    border-radius: 20px 20px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.order-text {
+    color: hsl(223, 47%, 23%);
+    margin: 45px 4px 18px 4px;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.description {
+    margin: auto;
+    text-align: center;
+    inline-size: 70%;
+    line-height: 27px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.description p {
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.suscription {
+    max-width: 360px;
+    background-color: hsl(225, 60%, 98%);
+    border-radius: 12px;
+    margin: auto;
+}
+
+.suscription article {
+    display: flex;
+}
+
+.icon-music {
+    margin: 14px 7px 0 8px;
+    padding: 1vh 1vw;
+}
+
+.suscrip-pay {
+    margin: 7px -4px 1px;
+    inline-size: 50%;
+}
+
+.suscrip-pay p {
+    color: hsl(224, 23%, 55%);
+    margin-top: 12px;
+    line-height: 1.6em;
+    inline-size: 110%
+}
+
+.suscrip-pay span {
+    color: hsl(223, 47%, 23%);
+    font-size: 16.5px;
+    font-weight: 900;
+}
+
+.suscrip-change {
+    margin: 3px 20px 2px 55px;
+    padding: 2vh 2vw;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.suscrip-change p {
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    text-decoration: underline;
+    position: relative;
+    z-index: 0;
+}
+
+.suscrip-change p::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    position: absolute;
+    z-index: -1;
+}
+
+.suscrip-change p:hover {
+    background: hsl(225, 100%, 98%);
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.payment {
+    text-align: center;
+}
+
+.payment article {
+    padding-top: 10px;
+}
+
+.pay-button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    background: hsl(245, 75%, 52%);
+    box-shadow: 0px 18px 17px 2px, 0px 18px 17px 2px;
+    color: hsl(229, 100%, 94%);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1em 6.4em;
+    position: relative;
+    z-index: 0;
+}
+
+.pay-button span {
+    color: hsl(0, 6%, 96%);
+}
+
+.pay-button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.pay-button:hover::after {
+    background: hsl(225, 100%, 98%);
+    opacity: 0.3;
+}
+
+.payment p {
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    margin: 30px 44px 44px 44px;
+    font-weight: 700;
+    position: relative;
+    z-index: 0;
+}
+
+.payment p span::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.payment p span:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    opacity: 1;
+}
+
