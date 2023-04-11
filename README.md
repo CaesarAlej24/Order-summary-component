@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/CaesarAlej24/QR-code-component](https://github.com/CaesarAlej24/Order-summary-component)
-- Live Site URL: [https://order-summary-component.vercel.ap](https://order-summary-component-1x5hih5u2-caesaralej24.vercel.app/)
+- Live Site URL: [https://order-summary-component.vercel.ap](https://order-summary-component-apx1p0vrj-caesaralej24.vercel.app/)
 
 
 ## My process
